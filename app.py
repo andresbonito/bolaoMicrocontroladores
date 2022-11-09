@@ -17,7 +17,7 @@ def home():
             f.write('email;selecao_a;placa_a;selecao_b;placar_b;\n')
             f.write(f'{data["email"][0]};{data["selecao-a"][0]};{data["placar-a"][0]};{data["selecao-b"][0]};{data["placar-b"][0]};')
 
-    return render_template('home.html')
+    return render_template('websocket.html')
 
   
 if __name__ == "__main__":
