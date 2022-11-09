@@ -7,4 +7,4 @@ Este projeto é uma versão simplificada de um site para realizar palpites do bo
 
 Foi utilizado HTML, CSS, Javacript e Flask para o T2 e, para o T3, agregamos uma lib chamada Paho MQTT para cumprir com os requisitos do projeto.
 
-O vídeo do projeto se encontra em Issues do GitHub.
+O vídeo do projeto se encontra em Issues no GitHub: https://github.com/andresbonito/bolaoMicrocontroladores/issues/1#issue-1442834203
