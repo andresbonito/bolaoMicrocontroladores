@@ -24,7 +24,8 @@
             }
             function MQTTconnect(){
                 console.log("Conectando ao " + host + " " + port);
-                mqtt = new Paho.MQTT.Client(host, port, "clientjs");
+                message = new Paho.MQTT.Message("Bem vindo ao Bolao");
+                mqtt = new Paho.MQTT.Client(host);
                 var options = {
                     timeout: 3,
                     onSuccess: onConnect,
