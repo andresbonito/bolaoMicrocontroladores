@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet">
+        <title>Bolão MVP</title>
+    </head>
+
+    <body>
+        <!-- HEADER -->
+        <header>
+            <div class="row">
+                <h1>Bolão MVP: Copa do Mundo 2022</h1>
+            </div>
+
+            <div class="row">
+                <form class="hero-text-box" method="POST" enctype="multipart/form-data">
+
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="email" name="email" id="email" placeholder="Seu email" required>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="selecao-a">Escolha a Seleção A</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <select name="selecao-a" id="selecao-a-dropdown" required>
+                                <option value="alemanha" selected>Alemanha</option>
+                                <option value="arabia-saudita" selected>Arábia Saudita</option>
+                                <option value="argentina" selected>Argentina</option>
+                                <option value="australia" selected>Austrália</option>
+                                <option value="belgica" selected>Bélgica</option>
+                                <option value="brasil" selected>Brasil</option>
+                                <option value="camaroes" selected>Camarões</option>
+                                <option value="canada" selected>Canadá</option>
+                                <option value="catar" selected>Catar</option>
+                                <option value="coreia-do-sul" selected>Coreia do Sul</option>
+                                <option value="costa-rica" selected>Costa Rica</option>
+                                <option value="croacia" selected>Croácia</option>
+                                <option value="dinamarca" selected>Dinamarca</option>
+                                <option value="equador" selected>Equador</option>
+                                <option value="espanha" selected>Espanha</option>
+                                <option value="estados-unidos" selected>Estados Unidos</option>
+                                <option value="franca" selected>França</option>
+                                <option value="gana" selected>Gana</option>
+                                <option value="holanda" selected>Holanda</option>
+                                <option value="inglaterra" selected>Inglaterra</option>
+                                <option value="ira" selected>Irã</option>
+                                <option value="japao" selected>Japão</option>
+                                <option value="marrocos" selected>Marrocos</option>
+                                <option value="mexico" selected>México</option>
+                                <option value="pais-de-gales" selected>País de Gales</option>
+                                <option value="polonia" selected>Polônia</option>
+                                <option value="portugal" selected>Portugal</option>
+                                <option value="senegal" selected>Senegal</option>
+                                <option value="servia" selected>Sérvia</option>
+                                <option value="suica" selected>Suíça</option>
+                                <option value="tunisia" selected>Tunísia</option>
+                                <option value="uruguai" selected>Uruguai</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="placar-a">Placar Seleção A</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="number" name="placar-a" id="placar-a" placeholder="Digite seu palpite do placar da Seleção A" required>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="selecao-b">Escolha a Seleção B</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <select name="selecao-b" id="selecao-b-dropdown" required>
+                                <option value="alemanha" selected>Alemanha</option>
+                                <option value="arabia-saudita" selected>Arábia Saudita</option>
+                                <option value="argentina" selected>Argentina</option>
+                                <option value="australia" selected>Austrália</option>
+                                <option value="belgica" selected>Bélgica</option>
+                                <option value="brasil" selected>Brasil</option>
+                                <option value="camaroes" selected>Camarões</option>
+                                <option value="canada" selected>Canadá</option>
+                                <option value="catar" selected>Catar</option>
+                                <option value="coreia-do-sul" selected>Coreia do Sul</option>
+                                <option value="costa-rica" selected>Costa Rica</option>
+                                <option value="croacia" selected>Croácia</option>
+                                <option value="dinamarca" selected>Dinamarca</option>
+                                <option value="equador" selected>Equador</option>
+                                <option value="espanha" selected>Espanha</option>
+                                <option value="estados-unidos" selected>Estados Unidos</option>
+                                <option value="franca" selected>França</option>
+                                <option value="gana" selected>Gana</option>
+                                <option value="holanda" selected>Holanda</option>
+                                <option value="inglaterra" selected>Inglaterra</option>
+                                <option value="ira" selected>Irã</option>
+                                <option value="japao" selected>Japão</option>
+                                <option value="marrocos" selected>Marrocos</option>
+                                <option value="mexico" selected>México</option>
+                                <option value="pais-de-gales" selected>País de Gales</option>
+                                <option value="polonia" selected>Polônia</option>
+                                <option value="portugal" selected>Portugal</option>
+                                <option value="senegal" selected>Senegal</option>
+                                <option value="servia" selected>Sérvia</option>
+                                <option value="suica" selected>Suíça</option>
+                                <option value="tunisia" selected>Tunísia</option>
+                                <option value="uruguai" selected>Uruguai</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="placar-b">Placar Seleção B</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="number" name="placar-b" id="placar-b" placeholder="Digite seu palpite do placar da Seleção B" required>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>&nbsp;</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="submit" id="botao" value="Enviar palpite">
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+
+        </header>
+        <!-- FOOTER -->
+        <footer>
+            <div class="row">
+                <p>
+                    Copyright &copy; 2022 by Marcello Beer e André Bonito (Projeto T2 e T3 Microcontroladores). Todos os direitos reservados.
+                </p>
+            </div>
+        </footer>
+    </body>
+</html>
