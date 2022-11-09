@@ -1,4 +1,4 @@
-from flask import Flask, request, render_template
+from flask import Flask, request, render_template, jsonify
 from time import time
 
 app = Flask(__name__,
@@ -22,4 +22,3 @@ def home():
   
 if __name__ == "__main__":
  app.run()
- 

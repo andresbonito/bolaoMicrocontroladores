@@ -1,0 +1,2 @@
+email;selecao_a;placa_a;selecao_b;placar_b;
+asbonito@icloud.com;servia;3;uruguai;1;
